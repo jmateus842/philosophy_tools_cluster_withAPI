@@ -1,0 +1,16 @@
+{
+  "citas_filosoficas": [
+    {
+      "id": 1,
+      "contenido": "La filosofia es la ciencia de las preguntas.",
+      "autor": "Anonimo",
+      "categoria": "Filosofia General"
+    },
+    {
+      "id": 2,
+      "contenido": "El pensamiento critico es la base de la sabiduria.",
+      "autor": "Socrates",
+      "categoria": "Pensamiento Critico"
+    }
+  ]
+} 
