@@ -47,3 +47,12 @@ PROGRESS.md
 
 # Carpeta de configuracion de Cursor
 .cursor/ 
+
+conceptos.json
+conceptos.scss
+detalle.scss
+
+*.css
+*.scss
+*.md
+*.json
