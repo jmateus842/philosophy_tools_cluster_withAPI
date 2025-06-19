@@ -1,0 +1,19 @@
+$card-hover-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: $card-hover-shadow;
+  }
+}
+
+.card-title {
+  color: #0d6efd; // azul Bootstrap
+  font-weight: 600;
+}
+
+.badge.text-bg-secondary {
+  background-color: #198754 !important; // verde Bootstrap
+}
