@@ -1,0 +1,24 @@
+<div class="container py-4">
+  <h2 class="mb-4 text-center">Conceptos y falacias</h2>
+
+  <div class="mb-4 text-center" *ngIf="categorias$ | async as categorias">
+    <select #filtro class="form-select w-auto d-inline-block" (change)="seleccionarCategoria(filtro.value)">
+      <option value="Todas">Todas las categorias</option>
+      <option *ngFor="let cat of categorias" [value]="cat">{{ cat }}</option>
+    </select>
+  </div>
+
+  <div class="row g-4" *ngIf="filtrados$ | async as conceptos">
+    <div class="col-md-4" *ngFor="let concepto of conceptos">
+      <div class="card h-100 shadow-sm">
+        <img [src]="concepto.imagen" class="card-img-top" [alt]="concepto.titulo">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">{{ concepto.titulo }}</h5>
+          <span class="badge text-bg-secondary align-self-start mb-2">{{ concepto.categoria }}</span>
+          <p class="card-text flex-grow-1">{{ concepto.definicion }}</p>
+          <a [routerLink]="['/detalle', concepto.id]" class="btn btn-primary mt-auto w-100">Ver mas</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
