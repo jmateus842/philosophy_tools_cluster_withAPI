@@ -1,1 +1,35 @@
-<p>detalle works!</p>
+<div class="container py-4" *ngIf="concepto$ | async as concepto; else cargando">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a routerLink="/">Inicio</a></li>
+      <li class="breadcrumb-item"><a routerLink="/conceptos">Conceptos</a></li>
+      <li class="breadcrumb-item active" aria-current="page">{{ concepto.titulo }}</li>
+    </ol>
+  </nav>
+
+  <div class="row mt-4 align-items-start">
+    <div class="col-md-6 mb-3 mb-md-0">
+      <img [src]="concepto.imagen" [alt]="concepto.titulo" class="img-fluid rounded shadow-sm" />
+    </div>
+    <div class="col-md-6">
+      <h2>{{ concepto.titulo }}</h2>
+      <span class="badge text-bg-secondary mb-3">{{ concepto.categoria }}</span>
+
+      <h5>Definicion</h5>
+      <p>{{ concepto.definicion }}</p>
+
+      <h5>Ejemplo</h5>
+      <p class="fst-italic">"{{ concepto.ejemplo }}"</p>
+
+      <a routerLink="/conceptos" class="btn btn-outline-primary mt-3">Volver a la lista</a>
+    </div>
+  </div>
+</div>
+
+<ng-template #cargando>
+  <div class="container py-4 text-center">
+    <div class="spinner-border" role="status">
+      <span class="visually-hidden">Cargando...</span>
+    </div>
+  </div>
+</ng-template>

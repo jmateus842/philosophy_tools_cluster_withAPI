@@ -1,4 +1,48 @@
+<div id="inicioCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#inicioCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#inicioCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#inicioCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://picsum.photos/seed/argumentista1/1200/400" class="d-block w-100" alt="Imagen generica 1">
+    </div>
+    <div class="carousel-item">
+      <img src="https://picsum.photos/seed/argumentista2/1200/400" class="d-block w-100" alt="Imagen generica 2">
+    </div>
+    <div class="carousel-item">
+      <img src="https://picsum.photos/seed/argumentista3/1200/400" class="d-block w-100" alt="Imagen generica 3">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#inicioCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#inicioCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+
 <div class="text-center py-5">
   <h1 class="display-4">Bienvenido a El Argumentista</h1>
   <p class="lead">Explora conceptos de pensamiento critico y filosofia de forma sencilla.</p>
+</div>
+
+<div class="container my-5">
+  <h2 class="mb-4 text-center">Citas filosoficas</h2>
+
+  <ul class="list-group">
+    <li
+      class="list-group-item d-flex justify-content-between align-items-start"
+      *ngFor="let cita of citas$ | async"
+    >
+      <div class="ms-2 me-auto">
+        <div class="fw-bold">{{ cita.autor }}</div>
+        "{{ cita.contenido }}"
+      </div>
+      <span class="badge bg-primary rounded-pill">{{ cita.categoria }}</span>
+    </li>
+  </ul>
 </div>

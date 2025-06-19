@@ -2,15 +2,153 @@
   "citas_filosoficas": [
     {
       "id": 1,
-      "contenido": "La filosofia es la ciencia de las preguntas.",
-      "autor": "Anonimo",
-      "categoria": "Filosofia General"
+      "contenido": "La filosofía es la ciencia de las preguntas.",
+      "autor": "Anónimo",
+      "categoria": "Filosofía General"
     },
     {
       "id": 2,
-      "contenido": "El pensamiento critico es la base de la sabiduria.",
-      "autor": "Socrates",
-      "categoria": "Pensamiento Critico"
+      "contenido": "El pensamiento crítico es la base de la sabiduría.",
+      "autor": "Sócrates",
+      "categoria": "Pensamiento Crítico"
+    },
+    {
+      "id": 3,
+      "contenido": "Solo sé que no sé nada.",
+      "autor": "Sócrates",
+      "categoria": "Filosofía Antigua"
+    },
+    {
+      "id": 4,
+      "contenido": "El hombre está condenado a ser libre.",
+      "autor": "Jean-Paul Sartre",
+      "categoria": "Existencialismo"
+    },
+    {
+      "id": 5,
+      "contenido": "Pienso, luego existo.",
+      "autor": "René Descartes",
+      "categoria": "Racionalismo"
+    },
+    {
+      "id": 6,
+      "contenido": "La vida sin examen no merece ser vivida.",
+      "autor": "Sócrates",
+      "categoria": "Filosofía General"
+    },
+    {
+      "id": 7,
+      "contenido": "La libertad es el reconocimiento de la necesidad.",
+      "autor": "Friedrich Engels",
+      "categoria": "Materialismo Dialéctico"
+    },
+    {
+      "id": 8,
+      "contenido": "Dios ha muerto.",
+      "autor": "Friedrich Nietzsche",
+      "categoria": "Filosofía Moderna"
+    },
+    {
+      "id": 9,
+      "contenido": "La educación es el arma más poderosa para cambiar el mundo.",
+      "autor": "Nelson Mandela",
+      "categoria": "Educación y Ética"
+    },
+    {
+      "id": 10,
+      "contenido": "La libertad no es nada más que una oportunidad para ser mejor.",
+      "autor": "Albert Camus",
+      "categoria": "Existencialismo"
+    },
+    {
+      "id": 11,
+      "contenido": "No hay hechos, solo interpretaciones.",
+      "autor": "Nietzsche",
+      "categoria": "Postmodernismo"
+    },
+    {
+      "id": 12,
+      "contenido": "El conocimiento es poder.",
+      "autor": "Francis Bacon",
+      "categoria": "Epistemología"
+    },
+    {
+      "id": 13,
+      "contenido": "La duda es el principio de la sabiduría.",
+      "autor": "Aristóteles",
+      "categoria": "Filosofía Antigua"
+    },
+    {
+      "id": 14,
+      "contenido": "Lo que no me mata me hace más fuerte.",
+      "autor": "Nietzsche",
+      "categoria": "Filosofía de la Voluntad"
+    },
+    {
+      "id": 15,
+      "contenido": "El estado es el camino más rápido hacia el infierno bien intencionado.",
+      "autor": "Friedrich Hayek",
+      "categoria": "Filosofía Política"
+    },
+    {
+      "id": 16,
+      "contenido": "La esencia del hombre es su existencia.",
+      "autor": "Sartre",
+      "categoria": "Existencialismo"
+    },
+    {
+      "id": 17,
+      "contenido": "La historia de toda sociedad hasta nuestros días es la historia de la lucha de clases.",
+      "autor": "Karl Marx",
+      "categoria": "Materialismo Histórico"
+    },
+    {
+      "id": 18,
+      "contenido": "El mayor enemigo del conocimiento no es la ignorancia, sino la ilusión del conocimiento.",
+      "autor": "Stephen Hawking",
+      "categoria": "Epistemología"
+    },
+    {
+      "id": 19,
+      "contenido": "La razón pura no puede dar cuenta de todo lo que somos.",
+      "autor": "Immanuel Kant",
+      "categoria": "Filosofía Crítica"
+    },
+    {
+      "id": 20,
+      "contenido": "Conócete a ti mismo.",
+      "autor": "Inscripción del Templo de Apolo en Delfos",
+      "categoria": "Filosofía Antigua"
+    },
+    {
+      "id": 21,
+      "contenido": "El alma se cura estando con los niños.",
+      "autor": "Fiódor Dostoievski",
+      "categoria": "Filosofía del Amor"
+    },
+    {
+      "id": 22,
+      "contenido": "El hombre es la medida de todas las cosas.",
+      "autor": "Protágoras",
+      "categoria": "Relativismo"
+    },
+    {
+      "id": 23,
+      "contenido": "La felicidad depende de nosotros mismos.",
+      "autor": "Aristóteles",
+      "categoria": "Ética"
+    },
+    {
+      "id": 24,
+      "contenido": "Ningún hombre entra dos veces en el mismo río.",
+      "autor": "Heráclito",
+      "categoria": "Filosofía del Cambio"
+    },
+    {
+      "id": 25,
+      "contenido": "Cuanto más vacío está el cántaro, más ruido hace.",
+      "autor": "Platón",
+      "categoria": "Sabiduría Popular"
     }
   ]
-} 
+}
