@@ -40,3 +40,10 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+gpt-inital-context.md
+Guia_inicial_general.txt
+PROGRESS.md
+
+# Carpeta de configuracion de Cursor
+.cursor/ 
